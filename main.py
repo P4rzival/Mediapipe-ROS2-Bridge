@@ -1,7 +1,7 @@
 from functions import *
 
 
-pathToRobotModel = input("Path to robot model: ")
+pathToRobotModel = browseFiles()  
 
 startRobot(pathToRobotModel)
 
