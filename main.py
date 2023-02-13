@@ -1,5 +1,7 @@
 from functions import *
 
+# Setup ROS2 Environment
+os.system("source /opt/ros/humble/setup.bash")
 
 pathToRobotModel = browseFiles()  
 
